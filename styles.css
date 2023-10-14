@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F6EEE0; /* Slightly lighter background */
+    color: #8B8E7C;
+    line-height: 1.6; /* Improved readability */
+}
+img#khonsuay {
+    display: block;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    margin-bottom: 24px; /* Increased spacing */
+    text-transform: uppercase; /* Titles in uppercase */
+    font-weight: 700; /* Bold titles */
+    letter-spacing: 1px; /* Add space between letters for better aesthetics */
+}
+
+h1 {
+    font-size: 3.5em; /* Increased font size */
+    text-align: center; /* Centered alignment */
+}
+
+h2 {
+    font-size: 1.8em; /* Increased font size */
+    text-align: center;
+    color: #e8a4a0; /* Darker color */
+}
+
+.Bullet {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px; /* Increased spacing */
+}
+
+.Bullet li {
+    padding: 8px 0;
+    margin-left: 25px;
+    border-left: 5px solid #A99488; /* Thicker border */
+    font-size: 1.1em; /* Increased font size */
+    transition: padding-left 0.3s; /* Smooth animation on hover */
+}
+
+.Bullet li:hover {
+    padding-left: 15px; /* Shift text right on hover*/ 
+}
+
+.Bullet li a {
+    text-decoration: none;
+    color: #A38166;
+    transition: color 0.3s;
+}
+
+.Bullet li a:hover {
+    color: #DAC6A3;
+}
+
+h3 {
+    font-size: 1.5em; /* Increased font size */
+    border-bottom: 3px solid #7D7462; /* Thicker border */
+    padding-bottom: 15px; /* Increased padding */
+    margin-bottom: 20px; /* Adjusted margin */
+}
